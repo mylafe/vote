@@ -1,0 +1,6 @@
+# golang project files
+.idea
+
+beckend/runtime
+frontend/runtime
+backend/web/js/plugins/Highcharts/4.1.7/exporting-server/java/highcharts-export/highcharts-export-web/target/highcharts-export-web/WEB-INF/classes/com/highcharts/export/controller/ZeroRequestParameterException.class

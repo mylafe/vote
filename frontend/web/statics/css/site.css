@@ -1,0 +1,188 @@
+html,
+body {
+    height: 100%;
+    background-color:#f6f5f2;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: "\e151";
+}
+
+a.desc:after {
+    content: "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav > li > form {
+    padding: 8px;
+}
+
+.nav > li > form > button:hover {
+    text-decoration: none;
+}
+
+/*自定义样式*/
+/*.navbar{
+    width: 80%;
+    margin: 10px auto;
+}*/
+
+/*small jpg*/
+.navbar-right>li>a.avatar img{
+    border: #ccc solid 1px;
+    width: 24px;
+    height: 24px;
+}
+.loop-container{
+    background-color: #fff;
+    padding:10px 20px; 
+    margin-bottom: 20px;
+}
+.loop-container h1 ,h2 ,h3 ,h4 ,h5 ,h6{
+    text-align: center;
+}
+.loop-conleft h4{
+    text-align: left !important;
+}
+.canyu{
+    text-align: right;
+}
+.content{
+    text-indent: 24px;
+    line-height: 24px;
+}
+.slimg{
+    text-align: center;
+}
+
+/*搜索*/
+.sb-widget {
+    padding: 20px;
+    padding: 1.25rem;
+    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
+    background: #fff;
+}
+#searchform{
+    width: 100%;
+    max-width: 300px;
+    text-align: right;
+    display: block;
+    overflow: hidden;
+}
+#keywords{
+    float: left;
+    width: 80%;
+    height: 32px;
+    font-size: 13px;
+    font-size: 0.8125rem;
+    color: #fff;
+    padding: 0 10px;
+    padding: 0 0.625rem;
+    border: none;
+    background: #343434;
+    overflow: hidden;
+    outline:none;
+}
+#searchsubmit{
+    color: #fff;
+    font-weight: 600;
+    padding: 10px 20px;
+    padding: 0.625rem 1.25rem;
+    cursor: pointer;
+    background: #000;
+    display: inline-block;
+    border: 0;
+    -webkit-appearance: none;
+}
+#searchform div {
+    background: #343434;
+}
+div.required label:after {
+    content: " *";
+    color: red;
+}
