@@ -25,17 +25,9 @@
 - 个人信息
 
 #### 部分截图
-
-![0](image/screen/0.jpg)
-
-![1](image/screen/1.jpg)
-
-![3](image/screen/3.jpg)
-
-![4](image/screen/4.jpg)
-
-![5](image/screen/5.jpg)
-
-![6](image/screen/6.jpg)
-
-![7](image/screen/7.jpg)
+|||
+|:---:|:---:|
+| ![0](image/screen/0.jpg) | ![1](image/screen/1.jpg) |
+| ![3](image/screen/3.jpg) | ![4](image/screen/4.jpg) |
+| ![5](image/screen/5.jpg) | ![6](image/screen/6.jpg) |
+| ![7](image/screen/7.jpg) | |
